@@ -1,0 +1,9 @@
+C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\bin\Debug\Dominio.Specs.dll.config
+C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\bin\Debug\Dominio.Specs.dll
+C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\bin\Debug\Dominio.Specs.pdb
+C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\bin\Debug\nunit.framework.dll
+C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\bin\Debug\TechTalk.SpecFlow.dll
+C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\bin\Debug\nunit.framework.xml
+C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.csprojResolveAssemblyReference.cache
+C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.dll
+C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.pdb

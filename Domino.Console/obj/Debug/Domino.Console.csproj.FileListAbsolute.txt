@@ -1,0 +1,6 @@
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\bin\Debug\Domino.Console.exe.config
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\bin\Debug\Domino.Console.exe
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\bin\Debug\Domino.Console.pdb
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\obj\Debug\Domino.Console.csprojResolveAssemblyReference.cache
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\obj\Debug\Domino.Console.exe
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\obj\Debug\Domino.Console.pdb
