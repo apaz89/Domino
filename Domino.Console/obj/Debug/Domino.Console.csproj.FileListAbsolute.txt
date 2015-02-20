@@ -4,3 +4,9 @@ C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\bin\Debug\Domino.Conso
 C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\obj\Debug\Domino.Console.csprojResolveAssemblyReference.cache
 C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\obj\Debug\Domino.Console.exe
 C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\obj\Debug\Domino.Console.pdb
+C:\Users\Wendy\Documents\Domino\Domino.Console\bin\Debug\Domino.Console.exe.config
+C:\Users\Wendy\Documents\Domino\Domino.Console\bin\Debug\Domino.Console.exe
+C:\Users\Wendy\Documents\Domino\Domino.Console\bin\Debug\Domino.Console.pdb
+C:\Users\Wendy\Documents\Domino\Domino.Console\obj\Debug\Domino.Console.csprojResolveAssemblyReference.cache
+C:\Users\Wendy\Documents\Domino\Domino.Console\obj\Debug\Domino.Console.exe
+C:\Users\Wendy\Documents\Domino\Domino.Console\obj\Debug\Domino.Console.pdb

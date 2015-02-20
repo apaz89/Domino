@@ -7,3 +7,12 @@ C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\bin\Debug\nunit.framewo
 C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.csprojResolveAssemblyReference.cache
 C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.dll
 C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.pdb
+C:\Users\Wendy\Documents\Domino\Dominio.Specs\bin\Debug\Dominio.Specs.dll.config
+C:\Users\Wendy\Documents\Domino\Dominio.Specs\bin\Debug\Dominio.Specs.dll
+C:\Users\Wendy\Documents\Domino\Dominio.Specs\bin\Debug\Dominio.Specs.pdb
+C:\Users\Wendy\Documents\Domino\Dominio.Specs\bin\Debug\nunit.framework.dll
+C:\Users\Wendy\Documents\Domino\Dominio.Specs\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\Wendy\Documents\Domino\Dominio.Specs\bin\Debug\nunit.framework.xml
+C:\Users\Wendy\Documents\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.csprojResolveAssemblyReference.cache
+C:\Users\Wendy\Documents\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.dll
+C:\Users\Wendy\Documents\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.pdb
