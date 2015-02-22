@@ -33,6 +33,9 @@
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.2.6.0.12054\lib\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\packages\RhinoMocks.3.6.1\lib\net\Rhino.Mocks.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,12 +48,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="OrderingTilesSteps.cs" />
+    <Compile Include="OrderinTiles.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrderinTiles.feature</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerTwoStartBecauseMaxDoublePiece.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PlayerTwoStartBecauseMaxDoublePiece.feature</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerTwoStartBecauseMaxDoublePieceSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OrderinTiles.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>OrderinTiles.feature.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
+    <None Include="PlayerTwoStartBecauseMaxDoublePiece.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>PlayerTwoStartBecauseMaxDoublePiece.feature.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
