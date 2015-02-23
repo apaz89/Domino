@@ -73,56 +73,37 @@ namespace Dominio.Specs
                         "mytag"});
 #line 5
 this.ScenarioSetup(scenarioInfo);
-#line hidden
-            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
-                        "Tile",
-                        "head",
-                        "tail"});
-            table1.AddRow(new string[] {
-                        "1",
-                        "3",
-                        "4"});
-            table1.AddRow(new string[] {
-                        "2",
-                        "1",
-                        "0"});
-            table1.AddRow(new string[] {
-                        "3",
-                        "6",
-                        "6"});
-            table1.AddRow(new string[] {
-                        "4",
-                        "2",
-                        "3"});
+#line 6
+ testRunner.Given("a Domino game", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 7
- testRunner.Given("a stock", ((string)(null)), table1, "Given ");
-#line hidden
-            TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
-                        "Tile",
-                        "head",
-                        "tail"});
-            table2.AddRow(new string[] {
-                        "1",
-                        "1",
-                        "4"});
-            table2.AddRow(new string[] {
-                        "2",
-                        "5",
-                        "6"});
-            table2.AddRow(new string[] {
-                        "3",
-                        "0",
-                        "5"});
-            table2.AddRow(new string[] {
-                        "4",
-                        "0",
-                        "3"});
-#line 13
- testRunner.And("Player 1 doesn\'t have a matching piece", ((string)(null)), table2, "And ");
-#line 19
+ testRunner.And("a stock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 8
+ testRunner.And("Player 1 doesn\'t have a matching piece", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 9
  testRunner.Then("add 1 tile to Player 1 list of tiles", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 20
+#line 10
  testRunner.And("remove 1 tile from stock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("The winner is the player with less quantity of pieces left")]
+        public virtual void TheWinnerIsThePlayerWithLessQuantityOfPiecesLeft()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("The winner is the player with less quantity of pieces left", ((string[])(null)));
+#line 12
+this.ScenarioSetup(scenarioInfo);
+#line 13
+ testRunner.Given("a Domino game", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 14
+ testRunner.And("an empty stock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 15
+ testRunner.And("Player 1 doesn\'t have a matching piece", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 16
+ testRunner.Then("validate the players pieces amount", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 17
+ testRunner.And("return player number with less pieces left", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }

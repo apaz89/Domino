@@ -40,10 +40,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Implementation\Board.cs" />
+    <Compile Include="Implementation\DominoGame.cs" />
+    <Compile Include="Implementation\Player.cs" />
     <Compile Include="Interfaces\IBoard.cs" />
     <Compile Include="Interfaces\IDomino.cs" />
     <Compile Include="Interfaces\IPlayer.cs" />
     <Compile Include="Interfaces\IStatistics.cs" />
+    <Compile Include="Interfaces\IStock.cs" />
     <Compile Include="Interfaces\ITile.cs" />
     <Compile Include="Interfaces\IRandom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
