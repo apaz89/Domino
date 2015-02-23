@@ -18,3 +18,5 @@ C:\Users\Wendy\Documents\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.dll
 C:\Users\Wendy\Documents\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.pdb
 C:\Users\Wendy\Documents\Domino\Dominio.Specs\bin\Debug\Domino.Logic.dll
 C:\Users\Wendy\Documents\Domino\Dominio.Specs\bin\Debug\Domino.Logic.pdb
+C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\bin\Debug\Domino.Logic.dll
+C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\bin\Debug\Domino.Logic.pdb

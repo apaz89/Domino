@@ -25,3 +25,12 @@ C:\Users\Wendy\Documents\Domino\Domino.Tests\bin\Debug\Rhino.Mocks.xml
 C:\Users\Wendy\Documents\Domino\Domino.Tests\obj\Debug\Domino.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Wendy\Documents\Domino\Domino.Tests\obj\Debug\Domino.Tests.dll
 C:\Users\Wendy\Documents\Domino\Domino.Tests\obj\Debug\Domino.Tests.pdb
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Tests\bin\Debug\Domino.Tests.dll
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Tests\bin\Debug\Domino.Tests.pdb
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Tests\bin\Debug\Domino.Logic.dll
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Tests\bin\Debug\Rhino.Mocks.dll
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Tests\bin\Debug\Domino.Logic.pdb
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Tests\bin\Debug\Rhino.Mocks.xml
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Tests\obj\Debug\Domino.Tests.csprojResolveAssemblyReference.cache
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Tests\obj\Debug\Domino.Tests.dll
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Tests\obj\Debug\Domino.Tests.pdb

@@ -42,6 +42,13 @@ namespace Domino.Logic
             }
         }
 
+        public Tile PopFromStock()
+        {
+            var tile = Tiles.ElementAt(0);
+            Tiles.RemoveAt(0);
+            return tile;
+        }
+
         private void SwapTilesRandomly()
         {
             int posTile1 = _random.GetRandomPosition();

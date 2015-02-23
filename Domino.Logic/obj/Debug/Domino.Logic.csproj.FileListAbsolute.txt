@@ -13,3 +13,8 @@ C:\Users\Wendy\Documents\Domino\Domino.Logic\bin\Debug\Domino.Logic.pdb
 C:\Users\Wendy\Documents\Domino\Domino.Logic\obj\Debug\Domino.Logic.dll
 C:\Users\Wendy\Documents\Domino\Domino.Logic\obj\Debug\Domino.Logic.pdb
 C:\Users\Wendy\Documents\Domino\Domino.Logic\obj\Debug\Domino.Logic.csprojResolveAssemblyReference.cache
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Logic\bin\Debug\Domino.Logic.dll
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Logic\bin\Debug\Domino.Logic.pdb
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Logic\obj\Debug\Domino.Logic.dll
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Logic\obj\Debug\Domino.Logic.pdb
+C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Logic\bin\Debug\TechTalk.SpecFlow.dll

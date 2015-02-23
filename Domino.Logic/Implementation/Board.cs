@@ -8,19 +8,21 @@ using Domino.Logic.Interfaces;
 namespace Domino.Logic.Implementation
 {
     public class Board
+    {
+
+        public List<Tile> _boardTilesList = new List<Tile>();
+        public int TilesAmount { set; get; }
+
+        public void AddTileToBoard(Tile newTile)
         {
-            
-            private List<Tile> _boardTilesList=new List<Tile>();
+            _boardTilesList.Add(newTile);
+            TilesAmount++;
 
-            public void AddTileToBoard(Tile newTile)
-            {
-                _boardTilesList.Add(newTile);
-            }
-
-            public List<Tile> GetBoardTiles()
-            {
-                return _boardTilesList;
-            }
         }
 
+        public List<Tile> GetBoardTiles()
+        {
+            return _boardTilesList;
+        }
+    }
 }
