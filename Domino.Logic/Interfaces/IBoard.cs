@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domino.Logic.Interfaces
 {
-    interface IBoard
+    public interface IBoard
     {
+        List<Tile> BoardTiles { get; set; }
+
+        void AddTileToBoard(Tile tile);
     }
 }

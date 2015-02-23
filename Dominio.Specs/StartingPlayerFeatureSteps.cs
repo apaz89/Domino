@@ -12,12 +12,8 @@ namespace Dominio.Specs
         private Game _game;
 
         private static int _playerCount = 1;
-        Tile _tile;
-        Player _player1 = new Player(_playerCount++);
-        Player _player2 = new Player(_playerCount++);
-        //private int _winner = -1;
-        //private int _NumberOfTilesOnBoard;
-        //private int _numberOfTilesInThePlayerHand = 0;
+        readonly Player _player1 = new Player(_playerCount++);
+        readonly Player _player2 = new Player(_playerCount++);
 
         [Given(@"A new game")]
         public void GivenANewGame()

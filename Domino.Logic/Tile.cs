@@ -9,11 +9,6 @@ namespace Domino.Logic
         public int Tail{ get; set; }
 
         public bool IsDoubleTile { get; set; }
-        
-        public void Swap()
-        {
-            throw new NotImplementedException();
-        }
 
         public Tile(int head, int tail)
         {
@@ -28,6 +23,11 @@ namespace Domino.Logic
             {
                 IsDoubleTile = false;
             }
+        }
+
+        public void Swap()
+        {
+            throw new NotImplementedException();
         }
 
         public int CompareTo(object obj)

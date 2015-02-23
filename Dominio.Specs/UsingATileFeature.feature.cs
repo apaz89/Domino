@@ -75,11 +75,7 @@ namespace Dominio.Specs
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("A list of tiles that are placed on the board", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 9
- testRunner.And("Player one and two have seven tiles each", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 10
- testRunner.And("Player one starts playing", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("A new game with a clean board", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                         "Head",
@@ -105,13 +101,63 @@ this.ScenarioSetup(scenarioInfo);
             table1.AddRow(new string[] {
                         "2",
                         "3"});
-#line 11
- testRunner.When("The board has these tiles placed", ((string)(null)), table1, "When ");
-#line 21
+#line 9
+ testRunner.And("Player one has seven tiles in the hand", ((string)(null)), table1, "And ");
+#line hidden
+            TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Head",
+                        "Tail"});
+            table2.AddRow(new string[] {
+                        "3",
+                        "4"});
+            table2.AddRow(new string[] {
+                        "2",
+                        "4"});
+            table2.AddRow(new string[] {
+                        "2",
+                        "5"});
+            table2.AddRow(new string[] {
+                        "0",
+                        "2"});
+            table2.AddRow(new string[] {
+                        "2",
+                        "6"});
+            table2.AddRow(new string[] {
+                        "1",
+                        "5"});
+            table2.AddRow(new string[] {
+                        "1",
+                        "4"});
+#line 18
+ testRunner.And("Player two has seven tiles in the hand", ((string)(null)), table2, "And ");
+#line 27
+ testRunner.And("Player one starts playing", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Head",
+                        "Tail"});
+            table3.AddRow(new string[] {
+                        "1",
+                        "1"});
+            table3.AddRow(new string[] {
+                        "0",
+                        "4"});
+            table3.AddRow(new string[] {
+                        "1",
+                        "3"});
+            table3.AddRow(new string[] {
+                        "0",
+                        "6"});
+            table3.AddRow(new string[] {
+                        "3",
+                        "3"});
+#line 28
+ testRunner.When("The board has tiles placed", ((string)(null)), table3, "When ");
+#line 39
  testRunner.And("Player one places one of his tiles on the board", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 22
+#line 40
  testRunner.Then("the tile must be removed from his hand", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 23
+#line 41
  testRunner.And("the tile must be added to the board", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();

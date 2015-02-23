@@ -11,7 +11,14 @@ namespace Domino.Logic
     {
         private int _handWinner;
         public List<IPlayer> Players { get; set; }
+        public IBoard GameBoard { get; set; }
 
+        public Game(IBoard board)
+        {
+            Players = new List<IPlayer>();
+            GameBoard = board;
+        }
+        
         public Game()
         {
             Players = new List<IPlayer>();
@@ -80,6 +87,32 @@ namespace Domino.Logic
         public void AssignHandWinner(int predeterminedStarter)
         {
             _handWinner = predeterminedStarter;
+        }
+
+        public void PlaceTileOnBoard(int playerNumber, int numberOfTilesOnBoard, int tileToPlace)
+        {
+
+            Tile lastPiece = GameBoard.BoardTiles.ElementAt(numberOfTilesOnBoard-1);
+            Tile playerTile = Players.ElementAt(playerNumber - 1).Hand.ElementAt(tileToPlace);
+
+            if (ValidateMovement(playerNumber, numberOfTilesOnBoard,tileToPlace))
+            {
+                Players.ElementAt(playerNumber - 1).Hand.Remove(playerTile);
+                GameBoard.BoardTiles.Add(playerTile);
+            }
+        }
+
+        public bool ValidateMovement(int playerNumber, int numberOfTilesOnBoard, int tileToPlace)
+        {
+            Tile lastPiece = GameBoard.BoardTiles.ElementAt(numberOfTilesOnBoard-1);
+            Tile playerTile = Players.ElementAt(playerNumber - 1).Hand.ElementAt(tileToPlace);
+
+            if (playerTile.Head == lastPiece.Tail || playerTile.Tail == lastPiece.Tail)
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }

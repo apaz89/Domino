@@ -53,6 +53,12 @@
       <DependentUpon>StartingPlayerFeature.feature</DependentUpon>
     </Compile>
     <Compile Include="StartingPlayerFeatureSteps.cs" />
+    <Compile Include="UsingATileFeature.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsingATileFeature.feature</DependentUpon>
+    </Compile>
+    <Compile Include="UsingATileFeatureSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -60,6 +66,10 @@
     <None Include="StartingPlayerFeature.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>StartingPlayerFeature.feature.cs</LastGenOutput>
+    </None>
+    <None Include="UsingATileFeature.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>UsingATileFeature.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>

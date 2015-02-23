@@ -13,7 +13,6 @@ namespace Domino.Logic.Interfaces
         int Points { set; get; }
         void TakeTile(Tile tile);
         Tile GetMostValuableTileInHand();
-        //Tile PopTileAtIndex(int index);
 
         //Stack<KeyValuePair<int, Piece>> GetPieces();
     }
