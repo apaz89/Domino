@@ -7,3 +7,14 @@ C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\bin\Debug\nunit.framewo
 C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.csprojResolveAssemblyReference.cache
 C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.dll
 C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.pdb
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Dominio.Specs\bin\Debug\Dominio.Specs.dll.config
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Dominio.Specs\bin\Debug\Dominio.Specs.dll
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Dominio.Specs\bin\Debug\Dominio.Specs.pdb
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Dominio.Specs\obj\Debug\Dominio.Specs.csprojResolveAssemblyReference.cache
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Dominio.Specs\obj\Debug\Dominio.Specs.dll
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Dominio.Specs\obj\Debug\Dominio.Specs.pdb
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Dominio.Specs\bin\Debug\nunit.framework.dll
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Dominio.Specs\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Dominio.Specs\bin\Debug\nunit.framework.xml
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Dominio.Specs\bin\Debug\Domino.Logic.dll
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Dominio.Specs\bin\Debug\Domino.Logic.pdb

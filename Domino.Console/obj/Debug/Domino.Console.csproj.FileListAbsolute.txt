@@ -4,3 +4,11 @@ C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\bin\Debug\Domino.Conso
 C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\obj\Debug\Domino.Console.csprojResolveAssemblyReference.cache
 C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\obj\Debug\Domino.Console.exe
 C:\ExamenIParcialIngenieriaSoftware\Domino\Domino.Console\obj\Debug\Domino.Console.pdb
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Console\bin\Debug\Domino.Console.exe.config
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Console\bin\Debug\Domino.Console.exe
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Console\bin\Debug\Domino.Console.pdb
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Console\obj\Debug\Domino.Console.exe
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Console\obj\Debug\Domino.Console.pdb
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Console\bin\Debug\Domino.Logic.dll
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Console\bin\Debug\Domino.Logic.pdb
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Console\obj\Debug\Domino.Console.csprojResolveAssemblyReference.cache

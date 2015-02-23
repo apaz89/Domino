@@ -1,12 +1,34 @@
 using System;
+using Domino.Logic.Interfaces;
 
 namespace Domino.Logic
 {
-    public class Tile:IComparable
+    public class Tile:ITile
     {
         public int Head { get; set; }
-        
         public int Tail{ get; set; }
+
+        public bool IsDoubleTile { get; set; }
+        
+        public void Swap()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Tile(int head, int tail)
+        {
+            Head = head;
+            Tail = tail;
+            
+            if (head == tail)
+            {
+                IsDoubleTile = true;
+            }
+            else
+            {
+                IsDoubleTile = false;
+            }
+        }
 
         public int CompareTo(object obj)
         {

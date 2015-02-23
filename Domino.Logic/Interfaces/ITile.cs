@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Domino.Logic.Interfaces
+{
+    public interface ITile
+    {
+        int Head { get; set; }
+        int Tail { get; set; }
+        void Swap();
+        bool IsDoubleTile { get; set; }
+    
+    }
+}

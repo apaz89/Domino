@@ -16,3 +16,12 @@ C:\Users\Tornrhen\Documents\GitHub\Domino\Domino\Domino.Tests\bin\Debug\Rhino.Mo
 C:\Users\Tornrhen\Documents\GitHub\Domino\Domino\Domino.Tests\obj\Debug\Domino.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Tornrhen\Documents\GitHub\Domino\Domino\Domino.Tests\obj\Debug\Domino.Tests.dll
 C:\Users\Tornrhen\Documents\GitHub\Domino\Domino\Domino.Tests\obj\Debug\Domino.Tests.pdb
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Tests\obj\Debug\Domino.Tests.csprojResolveAssemblyReference.cache
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Tests\bin\Debug\Domino.Tests.dll
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Tests\bin\Debug\Domino.Tests.pdb
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Tests\bin\Debug\Domino.Logic.dll
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Tests\bin\Debug\Domino.Logic.pdb
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Tests\bin\Debug\Rhino.Mocks.xml
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Tests\obj\Debug\Domino.Tests.dll
+C:\Users\ROSALES\Documents\Ingenieria de Software\Examen Domino\Domino.Tests\obj\Debug\Domino.Tests.pdb

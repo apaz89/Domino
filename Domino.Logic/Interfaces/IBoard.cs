@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dominio.Specs
+namespace Domino.Logic.Interfaces
 {
-    public class Class1
+    interface IBoard
     {
     }
 }

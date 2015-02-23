@@ -23,8 +23,8 @@ namespace Domino.Logic
             {
                 for (int tailValue = headValue; tailValue <= maxValue; tailValue++)
                 {
-                    var currentTile = new Tile() {Head = headValue, Tail = tailValue};
-                    initialTiles.Add(currentTile);
+                    //var currentTile = new Tile() {Head = headValue, Tail = tailValue};
+                    //initialTiles.Add(currentTile);
                 }
             }
 
