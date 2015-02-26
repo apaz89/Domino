@@ -7,3 +7,16 @@ C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\bin\Debug\nunit.framewo
 C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.csprojResolveAssemblyReference.cache
 C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.dll
 C:\ExamenIParcialIngenieriaSoftware\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.pdb
+E:\ingenieria de software\Examen1\Dominio.Specs\bin\Debug\Dominio.Specs.dll.config
+E:\ingenieria de software\Examen1\Dominio.Specs\bin\Debug\Dominio.Specs.dll
+E:\ingenieria de software\Examen1\Dominio.Specs\bin\Debug\Dominio.Specs.pdb
+E:\ingenieria de software\Examen1\Dominio.Specs\bin\Debug\nunit.framework.dll
+E:\ingenieria de software\Examen1\Dominio.Specs\bin\Debug\Rhino.Mocks.dll
+E:\ingenieria de software\Examen1\Dominio.Specs\bin\Debug\TechTalk.SpecFlow.dll
+E:\ingenieria de software\Examen1\Dominio.Specs\bin\Debug\nunit.framework.xml
+E:\ingenieria de software\Examen1\Dominio.Specs\bin\Debug\Rhino.Mocks.xml
+E:\ingenieria de software\Examen1\Dominio.Specs\obj\Debug\Dominio.Specs.dll
+E:\ingenieria de software\Examen1\Dominio.Specs\obj\Debug\Dominio.Specs.pdb
+E:\ingenieria de software\Examen1\Dominio.Specs\bin\Debug\Domino.Logic.dll
+E:\ingenieria de software\Examen1\Dominio.Specs\bin\Debug\Domino.Logic.pdb
+E:\ingenieria de software\Examen1\Dominio.Specs\obj\Debug\Dominio.Specs.csprojResolveAssemblyReference.cache
