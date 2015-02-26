@@ -1,12 +1,16 @@
 using System;
+using Domino.Logic.Intefaces;
 
-namespace Domino.Logic
+namespace Domino.Logic.Implementations
 {
-    public class Tile:IComparable
+    public class Tile:IComparable,ITile
     {
         public int Head { get; set; }
         
         public int Tail{ get; set; }
+
+        public bool HeadTaked { get; set; }
+        public bool TailTaked { get; set; }
 
         public int CompareTo(object obj)
         {
@@ -26,6 +30,13 @@ namespace Domino.Logic
         public override bool Equals(object obj)
         {
             return CompareTo(obj) == 0;
+        }
+
+        public void Swap()
+        {
+            var temp = Head;
+            Head = Tail;
+            Tail = temp;
         }
     }
 }

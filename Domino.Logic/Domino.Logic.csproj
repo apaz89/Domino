@@ -39,11 +39,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IRandom.cs" />
+    <Compile Include="Implementations\Board.cs" />
+    <Compile Include="Implementations\DominoGame.cs" />
+    <Compile Include="Implementations\MyRamdom.cs" />
+    <Compile Include="Implementations\Player.cs" />
+    <Compile Include="Implementations\Statistics.cs" />
+    <Compile Include="Implementations\Stock.cs" />
+    <Compile Include="Implementations\Tile.cs" />
+    <Compile Include="Intefaces\IBoard.cs" />
+    <Compile Include="Intefaces\IDominoGame.cs" />
+    <Compile Include="Intefaces\IPlayer.cs" />
+    <Compile Include="Intefaces\IRandom.cs" />
+    <Compile Include="Intefaces\IStatistics.cs" />
+    <Compile Include="Intefaces\IStock.cs" />
+    <Compile Include="Intefaces\ITile.cs" />
+    <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Stock.cs" />
-    <Compile Include="Tile.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,5 +1,7 @@
 ﻿using System;
 using Domino.Logic;
+using Domino.Logic.Implementations;
+using Domino.Logic.Intefaces;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rhino.Mocks;
 

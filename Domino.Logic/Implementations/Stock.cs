@@ -1,18 +1,28 @@
 using System.Collections.Generic;
+using System.Linq;
+using Domino.Logic.Intefaces;
 
-namespace Domino.Logic
+namespace Domino.Logic.Implementations
 {
-    public class Stock
+    public class Stock : IStock
     {
 
         private readonly IRandom _random;
+
+        public List<Tile> Tiles { get; set; }
+
+        public Stock()
+        {
+            Tiles = GetInitialSetOfTiles();
+        }
+
         public Stock(IRandom random)
         {
             _random = random;
             Tiles = GetInitialSetOfTiles();
         }
 
-        public static List<Tile> GetInitialSetOfTiles()
+        public List<Tile> GetInitialSetOfTiles()
         {
             var initialTiles = new List<Tile>();
             
@@ -29,7 +39,12 @@ namespace Domino.Logic
             return initialTiles;
         }
 
-        public List<Tile> Tiles { get; set; }
+        public Tile PopFromStock()
+        {
+            var tile = Tiles.ElementAt(0);
+            Tiles.RemoveAt(0);
+            return tile;
+        }
 
         public void Shuffle(int swapsAmount)
         {
@@ -48,5 +63,7 @@ namespace Domino.Logic
             Tiles[posTile1] = Tiles[posTile2];
             Tiles[posTile2] = temp;
         }
+
+       
     }
 }

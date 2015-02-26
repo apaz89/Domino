@@ -54,6 +54,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>OrderinTiles.feature</DependentUpon>
     </Compile>
+    <Compile Include="Player.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Player.feature</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerSteps.cs" />
     <Compile Include="PlayerTwoStartBecauseMaxDoublePiece.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -61,6 +67,24 @@
     </Compile>
     <Compile Include="PlayerTwoStartBecauseMaxDoublePieceSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecStatistics.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpecStatistics.feature</DependentUpon>
+    </Compile>
+    <Compile Include="SpecStatisticsSteps.cs" />
+    <Compile Include="StartingPlayerFeature.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StartingPlayerFeature.feature</DependentUpon>
+    </Compile>
+    <Compile Include="StartingPlayerFeatureSteps.cs" />
+    <Compile Include="UsingATileFeature.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsingATileFeature.feature</DependentUpon>
+    </Compile>
+    <Compile Include="UsingATileFeatureSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
@@ -71,10 +95,32 @@
       <LastGenOutput>OrderinTiles.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
+    <None Include="Player.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Player.feature.cs</LastGenOutput>
+    </None>
     <None Include="PlayerTwoStartBecauseMaxDoublePiece.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>PlayerTwoStartBecauseMaxDoublePiece.feature.cs</LastGenOutput>
     </None>
+    <None Include="SpecStatistics.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SpecStatistics.feature.cs</LastGenOutput>
+    </None>
+    <None Include="StartingPlayerFeature.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>StartingPlayerFeature.feature.cs</LastGenOutput>
+    </None>
+    <None Include="UsingATileFeature.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>UsingATileFeature.feature.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domino.Logic\Domino.Logic.csproj">
+      <Project>{a56c7152-9b44-433a-9c3a-82d65fac7027}</Project>
+      <Name>Domino.Logic</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

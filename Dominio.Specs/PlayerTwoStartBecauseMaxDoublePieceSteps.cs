@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using Domino.Logic.Implementations;
+using Domino.Logic.Intefaces;
 using NUnit.Framework;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
@@ -11,14 +13,14 @@ namespace Dominio.Specs
         [Given(@"Player one has a collection")]
         public void GivenPlayerOneHasACollection(Table table)
         {
-            var playerOnePieces = table.CreateSet<TileDomino>();
+            var playerOnePieces = table.CreateSet<Tile>();
             ScenarioContext.Current.Add("Player1Hand",playerOnePieces);
         }
 
         [Given(@"Player two has a collection")]
         public void GivenPlayerTwoHasACollection(Table table)
         {
-            var playerTwoPieces = table.CreateSet<TileDomino>();
+            var playerTwoPieces = table.CreateSet<Tile>();
             ScenarioContext.Current.Add("Player2Hand", playerTwoPieces);
         }
 
@@ -26,10 +28,10 @@ namespace Dominio.Specs
         public void WhenPlayerTwoHasTheMaxDoublePiece()
         {
 
-            TileDomino maxDoublePiece;
+            Tile maxDoublePiece;
 
-            var player1Hand= ScenarioContext.Current["Player1Hand"] as List<TileDomino>;
-            var player2Hand= ScenarioContext.Current["Player2Hand"] as List<TileDomino>;
+            var player1Hand= ScenarioContext.Current["Player1Hand"] as List<Tile>;
+            var player2Hand = ScenarioContext.Current["Player2Hand"] as List<Tile>;
 
 
 
@@ -54,17 +56,17 @@ namespace Dominio.Specs
         [Then(@"The player two start the game")]
         public void ThenThePlayerTwoStartTheGame()
         {
-            var maxdoubleTail = ScenarioContext.Current["MaxDoubleTail"] as TileDomino;
-            var player2Hand = ScenarioContext.Current["Player2Hand"] as List<TileDomino>;
+            var maxdoubleTail = ScenarioContext.Current["MaxDoubleTail"] as Tile;
+            var player2Hand = ScenarioContext.Current["Player2Hand"] as List<Tile>;
             CollectionAssert.Contains(player2Hand,maxdoubleTail,"Player two has not the max double tail");
         }
     }
 
     internal class PlayerHand
     {
-        public static TileDomino GetMaxDoublePiecePlayer(List<TileDomino> playerHand)
+        public static Tile GetMaxDoublePiecePlayer(List<Tile> playerHand)
         {
-            var currentMaxDoubleTile = new TileDomino();
+            var currentMaxDoubleTile = new Tile();
             foreach (var t in playerHand)
             {
                 if (t.Head == t.Tail)

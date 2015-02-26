@@ -1,4 +1,4 @@
-﻿namespace Domino.Logic
+namespace Domino.Logic.Intefaces
 {
     public interface IRandom
     {

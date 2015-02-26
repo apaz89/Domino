@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Domino.Logic;
+using Domino.Logic.Implementations;
 
 namespace Domino.Tests
 {
