@@ -1,4 +1,5 @@
 ﻿using System;
+using Domino.Logic.Implementations;
 using Domino.Logic.Intefaces;
 
 namespace Domino.Console
@@ -10,6 +11,16 @@ namespace Domino.Console
         private readonly IStock _stock;
 
         private readonly IPlayer _currentPlayer;
+
+        public PlayDomino(int numberOfPlayers)
+        {
+            _myDomino=new DominoGame();
+            _stock=new Stock();
+            _stock.Shuffle(15);
+            _myDomino.InitializePlayers(numberOfPlayers);
+            _myDomino.InitializeTurns();
+            _currentPlayer = _myDomino.GetPlayerAtTurn(_myDomino.PlayerTurn);
+        }
 
         public PlayDomino(IDominoGame myDominoGame,IStock stock,int numberOfPlayers)
         {
@@ -53,46 +64,23 @@ namespace Domino.Console
             }
         }
 
-        //public void PegungarMovimiento()
-        //{
-        //    System.Console.WriteLine();
+        public void PegungarMovimiento()
+        {
+            System.Console.WriteLine();
 
-        //    System.Console.Write("Jugador "+_currentPlayer.PlayerNumber+", Indique la pieza a mover de su mano(0 para pieza del pozo): ");
-        //    var posicionPieza = System.Console.ReadLine();
+            System.Console.Write("Jugador "+_currentPlayer.PlayerNumber+", Indique la pieza a mover de su mano(0 para pieza del pozo): ");
+            var posicionPieza = System.Console.ReadLine();
 
-        //    if (!string.IsNullOrEmpty(posicionPieza))
-        //        if (!_myDomino.PlaceTileOnBoard(_currentPlayer.PlayerNumber,) .PonerPizaEnMesaPorJugador(1, Int32.Parse(posicionPieza1) - 1))
-        //        {
-        //            System.Console.WriteLine("Jugador 1 tomo una pieza del pozo");
-        //        }
+            if (string.IsNullOrEmpty(posicionPieza)) return;
+            _myDomino.PlaceTileOnBoard(_currentPlayer.PlayerNumber, _myDomino.GameBoard.BoardTiles.Count, Int32.Parse(posicionPieza));
+            System.Console.WriteLine("Jugador " + _currentPlayer.PlayerNumber + " tomo una pieza del pozo");
+        }
 
-        //    break;
-        //    switch (_myDomino.PlayerTurn)
-        //    {
-        //        case 1:
-        //            System.Console.Write("Jugador 1, Indique la pieza a mover de su mano(0 para pieza del pozo): ");
-        //            var posicionPieza1 = System.Console.ReadLine();
-
-        //            if (!string.IsNullOrEmpty(posicionPieza1))
-        //                if (!JuegoDominoJz.PonerPizaEnMesaPorJugador(1, Int32.Parse(posicionPieza1) - 1))
-        //                {
-        //                    System.Console.WriteLine("Jugador 1 tomo una pieza del pozo");
-        //                }
-
-        //            break;
-        //        case 2:
-        //            System.Console.Write("Jugador 2, Indique la pieza a mover de su mano(0 para pieza del pozo): ");
-        //            var posicionPieza2 = System.Console.ReadLine();
-
-        //            if (!string.IsNullOrEmpty(posicionPieza2))
-        //                if (!JuegoDominoJz.PonerPizaEnMesaPorJugador(2, Int32.Parse(posicionPieza2) - 1))
-        //                {
-        //                    System.Console.WriteLine("Jugador 2 tomo una pieza del pozo");
-        //                }
-
-        //            break;
-        //    }
-        //}
+        public void MostrarEstadisticas()
+        {
+            //_myDomino;
+            //Console.ReadKey();
+        }
 
 
 
