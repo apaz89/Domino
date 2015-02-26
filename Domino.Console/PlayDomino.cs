@@ -1,5 +1,8 @@
 ﻿using System;
 using Domino.Logic.Intefaces;
+using Autofac;
+using Domino.Logic;
+using Domino.Logic.Intefaces;
 
 namespace Domino.Console
 {
@@ -11,14 +14,33 @@ namespace Domino.Console
 
         private readonly IPlayer _currentPlayer;
 
-        public PlayDomino(IDominoGame myDominoGame,IStock stock,int numberOfPlayers)
+        private readonly IBoard _myBoard;
+
+        private readonly IStatistics _myStatistics;
+
+        private readonly IRandom _myRandom;
+
+        //private readonly ITile nyTile;
+
+        private static IoContainer _Container { get; set; }
+
+        public PlayDomino(IDominoGame myDominoGame,IStock stock, IPlayer player, IBoard board, IStatistics statistics, IRandom random, ITile tile,int numberOfPlayers)
         {
+
+            _Container = IoContainer.ContainerRepo();
+            var myTile = _Container.Resolve<ITile>();
+
             _myDomino = myDominoGame;
             _stock = stock;
+            _currentPlayer = player;
+            _myBoard = board;
+            _myStatistics = statistics;
+            _myRandom = random;
+            //_nyTile = tile;
             _stock.Shuffle(15);
             _myDomino.InitializePlayers(numberOfPlayers);
             _myDomino.InitializeTurns();
-            _currentPlayer= _myDomino.GetPlayerAtTurn(_myDomino.PlayerTurn);
+            _myStatistics= _myDomino.GetPlayerAtTurn(_myDomino.PlayerTurn);
         }
 
         public void ImprimirJuego()
@@ -26,12 +48,12 @@ namespace Domino.Console
             System.Console.Clear();
 
             System.Console.WriteLine("\n\n\t\tBIENVENIDO A DOMINO OVERFLOW");
-            System.Console.WriteLine("\nTURNO: Jugador " + _currentPlayer.PlayerNumber);
+            System.Console.WriteLine("\nTURNO: Jugador " + _myStatistics.PlayerNumber);
             
 
             foreach (var player in _myDomino.Players)
             {
-                System.Console.WriteLine("\nJugador" + _currentPlayer.PlayerNumber);
+                System.Console.WriteLine("\nJugador" + _myStatistics.PlayerNumber);
                 var contador = 1;
                 foreach (var pair in player.Hand)
                 {

@@ -12,3 +12,4 @@ E:\ingenieria de software\Examen1\Domino.Console\obj\Debug\Domino.Console.exe
 E:\ingenieria de software\Examen1\Domino.Console\obj\Debug\Domino.Console.pdb
 E:\ingenieria de software\Examen1\Domino.Console\bin\Debug\Domino.Logic.dll
 E:\ingenieria de software\Examen1\Domino.Console\bin\Debug\Domino.Logic.pdb
+C:\Users\Tornrhen\Documents\Domino\Domino.Console\obj\Debug\Domino.Console.csprojResolveAssemblyReference.cache

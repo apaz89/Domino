@@ -20,3 +20,18 @@ E:\ingenieria de software\Examen1\Dominio.Specs\obj\Debug\Dominio.Specs.pdb
 E:\ingenieria de software\Examen1\Dominio.Specs\bin\Debug\Domino.Logic.dll
 E:\ingenieria de software\Examen1\Dominio.Specs\bin\Debug\Domino.Logic.pdb
 E:\ingenieria de software\Examen1\Dominio.Specs\obj\Debug\Dominio.Specs.csprojResolveAssemblyReference.cache
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.csprojResolveAssemblyReference.cache
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\bin\Debug\Dominio.Specs.dll.config
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\bin\Debug\Dominio.Specs.dll
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\bin\Debug\Dominio.Specs.pdb
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\bin\Debug\Domino.Logic.dll
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\bin\Debug\nunit.framework.dll
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\bin\Debug\Rhino.Mocks.dll
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\bin\Debug\Autofac.dll
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\bin\Debug\Domino.Logic.pdb
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\bin\Debug\nunit.framework.xml
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\bin\Debug\Rhino.Mocks.xml
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\bin\Debug\Autofac.xml
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.dll
+C:\Users\Tornrhen\Documents\Domino\Dominio.Specs\obj\Debug\Dominio.Specs.pdb

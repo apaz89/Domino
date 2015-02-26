@@ -30,3 +30,4 @@ E:\ingenieria de software\Examen1\Domino.Tests\bin\Debug\Rhino.Mocks.xml
 E:\ingenieria de software\Examen1\Domino.Tests\obj\Debug\Domino.Tests.csprojResolveAssemblyReference.cache
 E:\ingenieria de software\Examen1\Domino.Tests\obj\Debug\Domino.Tests.dll
 E:\ingenieria de software\Examen1\Domino.Tests\obj\Debug\Domino.Tests.pdb
+C:\Users\Tornrhen\Documents\Domino\Domino.Tests\obj\Debug\Domino.Tests.csprojResolveAssemblyReference.cache
