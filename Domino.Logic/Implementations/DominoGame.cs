@@ -11,8 +11,10 @@ namespace Domino.Logic.Implementations
         public List<IPlayer> Players { get; set; }
         public IBoard GameBoard { get; set; }
         public IStock Stock { get; set; }
-        public int PlayerTurn { get; set; }
+        public IStatistics Statistics { get; set; }
 
+        public int PlayerTurn { get; set; }
+        
         #endregion
 
         #region Private Properties
