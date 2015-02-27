@@ -4,13 +4,15 @@ using Domino.Logic.Intefaces;
 
 namespace Domino.Logic.Implementations
 {
-    public class DominoGame:IDominoGame
+    public class DominoGame : IDominoGame
     {
         #region Public Properties
 
         public List<IPlayer> Players { get; set; }
         public IBoard GameBoard { get; set; }
         public IStock Stock { get; set; }
+        public IStatistics Statistics { get; set; }
+
         public int PlayerTurn { get; set; }
 
         #endregion
@@ -26,7 +28,7 @@ namespace Domino.Logic.Implementations
         /// bueno para produccion
         /// </summary>
         /// <param name="board"></param>
-        public DominoGame(IBoard board) 
+        public DominoGame(IBoard board)
         {
             Players = new List<IPlayer>();
             GameBoard = board;
@@ -38,7 +40,7 @@ namespace Domino.Logic.Implementations
         {
             Players = new List<IPlayer>();
             GameBoard = new Board();
-            Stock=new Stock();
+            Stock = new Stock();
             PlayerTurn = 0;
         }
         #endregion
@@ -180,7 +182,7 @@ namespace Domino.Logic.Implementations
             return move;
         }
 
-        
+
 
         public void InitializePlayersHand(int amountOfTilesForEachPlayer)
         {
@@ -214,7 +216,7 @@ namespace Domino.Logic.Implementations
             return playerWithMaxDoublePiecePlayer;
         }
 
-        
+
         public void AddPlayer(IPlayer player)
         {
             Players.Add(player);
@@ -226,8 +228,8 @@ namespace Domino.Logic.Implementations
 
             if (maxTileInPlayersHand != -1)
                 return maxTileInPlayersHand;
-            
-            var maxSumTileOfPlayer= 0;
+
+            var maxSumTileOfPlayer = 0;
             foreach (var player in Players)
             {
                 var tile = player.GetMostValuableSumTileInHand();
@@ -289,7 +291,7 @@ namespace Domino.Logic.Implementations
 
         public bool PlayerHasMatchingPiece(int playerNumber)
         {
-             
+
             var boardTilesList = GameBoard.BoardTiles;
 
             if (boardTilesList.Count == 0)
@@ -374,9 +376,9 @@ namespace Domino.Logic.Implementations
             if (turno < GetNumberPlayers())
                 return (Player)Players.ElementAt(turno);
             return null;
-                
+
         }
-        
+
 
         public void InitializeTurns()
         {

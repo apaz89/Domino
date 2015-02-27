@@ -21,7 +21,7 @@ namespace Domino.Logic.Intefaces
         void InitializeTurns();
 
         int CalculateStartingPlayer();
-        
+
         void AssignHandWinner();
         //void AssignHandWinner(int predeterminedStarter);
         void PlaceTileOnBoard(int playerNumber, int numberOfTilesOnBoard, int tileToPlace);
