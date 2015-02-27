@@ -8,8 +8,12 @@ namespace Domino.Console
 {
     class Program
     {
+        
+
         static void Main(string[] args)
         {
+            PlayDomino play = new PlayDomino(2);
+            play.ImprimirJuego();
         }
     }
 }

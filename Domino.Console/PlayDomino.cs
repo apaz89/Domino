@@ -20,27 +20,25 @@ namespace Domino.Console
 
         private readonly IRandom _myRandom;
 
-        //private readonly ITile nyTile;
+        private readonly ITile _myTile;
 
-        private static IoContainer _Container { get; set; }
+        private static IContainer _Container { get; set; }
 
-        public PlayDomino(IDominoGame myDominoGame,IStock stock, IPlayer player, IBoard board, IStatistics statistics, IRandom random, ITile tile,int numberOfPlayers)
+        public PlayDomino(int numberOfPlayers)
         {
-
             _Container = IoContainer.ContainerRepo();
-            var myTile = _Container.Resolve<ITile>();
+            _myTile = _Container.Resolve<ITile>();
+            _myDomino = _Container.Resolve<IDominoGame>();
+            _stock = _Container.Resolve<IStock>(); 
+            _currentPlayer = _Container.Resolve<IPlayer>(); 
+            _myBoard = _Container.Resolve<IBoard>(); 
+            _myStatistics = _Container.Resolve<IStatistics>(); 
+            _myRandom = _Container.Resolve<IRandom>(); 
 
-            _myDomino = myDominoGame;
-            _stock = stock;
-            _currentPlayer = player;
-            _myBoard = board;
-            _myStatistics = statistics;
-            _myRandom = random;
-            //_nyTile = tile;
             _stock.Shuffle(15);
             _myDomino.InitializePlayers(numberOfPlayers);
             _myDomino.InitializeTurns();
-            _myStatistics= _myDomino.GetPlayerAtTurn(_myDomino.PlayerTurn);
+            _currentPlayer = _myDomino.GetPlayerAtTurn(_myDomino.PlayerTurn);
         }
 
         public void ImprimirJuego()
@@ -48,12 +46,12 @@ namespace Domino.Console
             System.Console.Clear();
 
             System.Console.WriteLine("\n\n\t\tBIENVENIDO A DOMINO OVERFLOW");
-            System.Console.WriteLine("\nTURNO: Jugador " + _myStatistics.PlayerNumber);
+            System.Console.WriteLine("\nTURNO: Jugador " + _currentPlayer.PlayerNumber);
             
 
             foreach (var player in _myDomino.Players)
             {
-                System.Console.WriteLine("\nJugador" + _myStatistics.PlayerNumber);
+                System.Console.WriteLine("\nJugador" + _currentPlayer.PlayerNumber);
                 var contador = 1;
                 foreach (var pair in player.Hand)
                 {
@@ -73,6 +71,8 @@ namespace Domino.Console
             {
                 System.Console.Write("|" + tile.Head+ "-" + tile.Tail+ "|");
             }
+
+            System.Console.ReadLine();
         }
 
         //public void PegungarMovimiento()

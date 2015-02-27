@@ -3,7 +3,7 @@ using Domino.Logic.Intefaces;
 
 namespace Domino.Logic.Implementations
 {
-    public class Tile:IComparable,ITile
+    public class Tile:ITile,IComparable
     {
         public int Head { get; set; }
         

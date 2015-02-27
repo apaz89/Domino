@@ -10,6 +10,10 @@ namespace Domino.Logic.Implementations
         public int PlayerNumber { get; set; }
         public int Points { get; set; }
 
+        public Player()
+        {
+        }
+
         public Player(int playerNumber)
         {
             PlayerNumber = playerNumber;

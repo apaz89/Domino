@@ -57,6 +57,7 @@
     <Compile Include="Intefaces\IStock.cs" />
     <Compile Include="Intefaces\ITile.cs" />
     <Compile Include="IoContainer.cs" />
+    <Compile Include="NStatistics.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

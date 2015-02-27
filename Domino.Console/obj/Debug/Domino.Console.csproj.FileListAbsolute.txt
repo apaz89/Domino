@@ -12,4 +12,13 @@ E:\ingenieria de software\Examen1\Domino.Console\obj\Debug\Domino.Console.exe
 E:\ingenieria de software\Examen1\Domino.Console\obj\Debug\Domino.Console.pdb
 E:\ingenieria de software\Examen1\Domino.Console\bin\Debug\Domino.Logic.dll
 E:\ingenieria de software\Examen1\Domino.Console\bin\Debug\Domino.Logic.pdb
+C:\Users\Tornrhen\Documents\Domino\Domino.Console\bin\Debug\Domino.Console.exe.config
+C:\Users\Tornrhen\Documents\Domino\Domino.Console\bin\Debug\Domino.Console.exe
+C:\Users\Tornrhen\Documents\Domino\Domino.Console\bin\Debug\Domino.Console.pdb
+C:\Users\Tornrhen\Documents\Domino\Domino.Console\bin\Debug\Autofac.dll
+C:\Users\Tornrhen\Documents\Domino\Domino.Console\bin\Debug\Domino.Logic.dll
+C:\Users\Tornrhen\Documents\Domino\Domino.Console\bin\Debug\Domino.Logic.pdb
+C:\Users\Tornrhen\Documents\Domino\Domino.Console\bin\Debug\Autofac.xml
 C:\Users\Tornrhen\Documents\Domino\Domino.Console\obj\Debug\Domino.Console.csprojResolveAssemblyReference.cache
+C:\Users\Tornrhen\Documents\Domino\Domino.Console\obj\Debug\Domino.Console.exe
+C:\Users\Tornrhen\Documents\Domino\Domino.Console\obj\Debug\Domino.Console.pdb
